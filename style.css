@@ -1,0 +1,143 @@
+@media only screen and (max-width: 399px){
+
+ .body{
+  background-color: rgb(180, 44, 44);
+ }
+ .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+ }
+ .part2{
+  text-align: center;
+ }
+ 
+}
+.bigbox{
+ flex-direction: column;
+}
+body{
+ background-color: rgb(253, 245, 236);
+}
+*{
+ 
+ padding: 0;
+ margin: 0;
+}
+.part1{
+ display: flex;
+ justify-content: center;
+align-items: end;
+ gap: 30px;
+}
+.part1 i{
+ padding: 7px;
+ border: 1px solid gray;
+ border-radius: 5px;
+ margin-bottom: 2px;
+}
+.part2{
+ display: flex;
+ margin-top: 20px;
+ justify-content: center;
+}
+
+.container{
+ margin-top: 30px;
+ display: flex;
+ gap: 20px;
+ justify-content: center;
+ position: relative;
+}
+.box{
+ padding: 20px 2px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 10px;
+ border: 2px solid darkorange;
+ gap: 20px;
+ position: relative;
+ width: 350px;
+ height: 50vh;
+ }
+ .box h1{
+  margin: 0px 60px ;
+  text-align: center;
+  word-wrap: break-word;
+  
+ }
+.box p{
+ margin: 10px 70px ;
+ text-align: center;
+ word-wrap: break-word;
+}
+
+.b{
+ position: absolute;
+ margin-top: 330px;
+ color: azure;
+ padding: 10px 90px;
+ background-color: rgb(30, 26, 26);
+ border-radius: 5px;
+}
+.bigbox{
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ gap: 10px;
+ margin-top: 70px;
+ margin-left: 20vh;
+ margin-right: 20vh;
+}
+
+.right{
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.left{
+display: flex;
+flex-direction: column;
+gap: 10px;
+ 
+}
+.po {
+ 
+ text-align: center;
+ 
+}
+.A{
+ border-radius: 10px;
+ padding: 20px;
+ background-color: white;
+ position: relative;
+ height: 80px;
+}
+.A1{
+ display: flex;
+ justify-content: end;
+ list-style: none;
+ gap: 20px;
+ 
+}
+.A1 h3{
+ align-items: end;
+ position: absolute;
+ top: 30px;
+ left: 19px;
+ }
+ .A p{
+ margin-top: 10px;
+ }
+ .a{
+  color: orangered;
+  background-color: rgb(208, 171, 171);
+  padding: 0px 9px;
+  border-radius: 10px;
+ }
